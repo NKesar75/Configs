@@ -1,4 +1,5 @@
 # Path to your oh-my-zsh installation.
+# Change Path based off user path when getting new machine
 export ZSH="/Users/nileshkesar/.oh-my-zsh"
 
 # Set name of the theme to load --- if set to "random", it will
@@ -21,18 +22,12 @@ DISABLE_UPDATE_PROMPT="true"
 # Add wisely, as too many plugins slow down shell startup.
 plugins=(git cp)
 
-source $ZSH/oh-my-zsh.sh
-
 # User configuration
 
 # You may need to manually set your language environment
 export LANG=en_US.UTF-8
 
-# Set personal aliases, overriding those provided by oh-my-zsh libs,
-# plugins, and themes. Aliases can be placed here, though oh-my-zsh
-# users are encouraged to define aliases within the ZSH_CUSTOM folder.
-# For a full list of active aliases, run `alias`.
-
-# Source bash Profile
+# Source
+source $ZSH/oh-my-zsh.sh
 if [ -f ~/.bash_profile ]; then . ~/.bash_profile; fi
 

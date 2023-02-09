@@ -17,7 +17,7 @@ tcommit() {
 		echo "Error: must pass commit message"
 	else 
 		ticket_number=$(git rev-parse --abbrev-ref HEAD | cut -d '/' -f1);
-		git add -A
+		git add -A;
 		git commit -m "${ticket_number}: ${COMMIT_MSG}";
 	fi 
 }

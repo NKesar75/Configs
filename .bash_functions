@@ -7,7 +7,7 @@ squash() {
 		echo "Error: must pass base branch"
 	else 
 		git reset $(git merge-base $BRANCH_NAME $(git branch --show-current)) 
-    fi 
+	fi 
 }
 
 tcommit() {

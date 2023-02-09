@@ -5,6 +5,7 @@ alias ls="ls -A"
 alias lg="git log --graph --color"
 alias clean-git="git branch | grep -v '^*' | xargs git branch -D"
 alias fix-audio="sudo killall coreaudiod"
+alias clean-img='docker image rm $(docker image ls -q)' 
 alias clean-vol='docker volume rm $(docker volume ls -q)'
 alias clear-pycache='find . | grep -E "(__pycache__|\.pyc|\.pyo$)" | xargs rm -rf'
 

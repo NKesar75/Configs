@@ -1,7 +1,9 @@
 ###############
 #     Alias   #
 ###############
-alias ls="ls -A" 
+alias lsa="ls -A" 
+alias lsf="tree ." 
+alias lsd="tree -d ." 
 alias lg="git log --graph --color"
 alias clean-git="git branch | grep -v '^*' | xargs git branch -D"
 alias fix-audio="sudo killall coreaudiod"

@@ -12,6 +12,7 @@ alias clean-img='docker image rm $(docker image ls -q)'
 alias clean-vol='docker volume rm $(docker volume ls -q)'
 alias clean-pycache='find . | grep -E "(__pycache__|\.pyc|\.pyo$)" | xargs rm -rf'
 alias tfmt='terraform fmt --recursive'
+alias finished-cmd='echo "FINISHED THE COMMAND PLEASE GO BACK TO TERMINAL" | espeak -a 150 -p 75'
 
 ##################
 #     Functions  #

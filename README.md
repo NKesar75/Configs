@@ -4,3 +4,4 @@
 - [Nvim](https://neovim.io/)
 - [powerlevel10k](https://github.com/romkatv/powerlevel10k)
 - [espeak](https://formulae.brew.sh/formula/espeak)
+- [MonitorControl](https://github.com/MonitorControl/MonitorControl?tab=readme-ov-file)

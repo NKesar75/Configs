@@ -1,3 +1,0 @@
-- [Explain Shell Commands](https://explainshell.com/#)
-- [Color Accessibility Picker](https://webaim.org/resources/contrastchecker/)
-- [Design Patterns] https://refactoring.guru/design-patterns

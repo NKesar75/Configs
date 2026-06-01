@@ -14,7 +14,6 @@ alias clean-pycache='find . | grep -E "(__pycache__|\.pyc|\.pyo$)" | xargs rm -r
 alias tfmt='terraform fmt --recursive'
 alias fcmd='echo "FINISHED THE COMMAND" | espeak -a 150 -p 75'
 alias ggpf='git push origin "$(git_current_branch)" --force-with-lease'
-alias gca='git commit --amend'
 
 ##################
 #     Functions  #
